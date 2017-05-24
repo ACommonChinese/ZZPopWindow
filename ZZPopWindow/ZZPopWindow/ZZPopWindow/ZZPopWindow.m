@@ -271,7 +271,7 @@ typedef NS_OPTIONS(NSUInteger, ZZAtViewPosition) {
 }
 
 - (void)showAtView:(UIView *)atView {
-    self.backgroundColor = [UIColor colorWithRed:.5 green:.5 blue:.5 alpha:.5];
+    // self.backgroundColor = [UIColor colorWithRed:.5 green:.5 blue:.5 alpha:.5];
     
     // 1. make visible
     [self makeKeyWindow];
